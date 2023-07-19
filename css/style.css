@@ -1,0 +1,112 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v17-latin-regular.woff2') format('woff2');
+}
+:root {
+  --color-primary-white: #FFF;
+  --color-primary-light: #2B7FFF;
+  --color-primary-dark: #011C44;
+}
+/* Base */
+body {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-primary-dark);
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+footer {
+  color: var(--color-primary-white);
+  font-size: 16px;
+  background-color: var(--color-primary-dark);
+/* Button */
+}
+.button {
+  color: var(--color-primary-white);
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-light);
+  background-color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+}
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+/* link */
+.link {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+/* Hero section */
+.hero-title {
+  color: var(--color-primary-light);
+  font-family: 'Play';
+  text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.81;
+}
+.hero-p {
+  color: #4A4A4A;
+  font-size: 12px;
+
+}
+/* About section */
+.section-title {
+  font-family: 'Play';
+  color: var(--color-primary-dark);
+  font-size: 64px;
+  font-weight: 700;
+}
+.about{
+    text-transform: capitalize;
+}
+.about-text{
+  color: var(--color-primary-dark);
+  font-size: 22px;
+  line-height: 1.73;
+}
+.about-span{
+  text-transform: capitalize;
+}
+.accent {
+  color: var(--color-primary-light);
+}
+/* Reviews section */
+.reviews-item {
+  color: #000;
+  text-align: center;
+  line-height: 1.33;
+}
